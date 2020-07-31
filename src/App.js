@@ -1,9 +1,14 @@
 import React from 'react';
 
 function App() {
+
+  const test = () => {
+    console.log("where i am !!");
+  }
+
   return (
     <div className="App">
-      <h1>{'manju from testetest'}</h1>
+      {test && <h1>{'manju from teshdhjhfdtetest'}</h1>}
     </div>
   );
 }
